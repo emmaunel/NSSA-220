@@ -27,7 +27,7 @@ complete your TPS Reports in a timely manner.
 Sincerely,
 Bill Lumbergh
 EOF
-	cp ackbar.png /home/$1/Pictures/ackbar.png
+	cp ackbar.jpg /home/$1/Pictures/ackbar.jpg
 } 
 
 function permission_editor() {

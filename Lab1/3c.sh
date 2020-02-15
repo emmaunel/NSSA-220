@@ -1,0 +1,1 @@
+cat TeddyBallgame.txt | awk '{if ($4 >= 30) print $1, $4, $5, $6}' | sort -r -k 2

@@ -1,0 +1,1 @@
+grep -R -l 192.168 /etc/*.conf 2> /dev/null

@@ -1,0 +1,1 @@
+cat TeddyBallgame.txt | awk '{if ($5 >= 100) print $1, $5}'

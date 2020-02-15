@@ -1,0 +1,1 @@
+cat TeddyBallgame.csv | tail -n +2 | sed -e 's/,/ /g' > TeddyBallgame.txt; cat TeddyBallgame.txt
