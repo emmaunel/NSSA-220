@@ -23,18 +23,14 @@ def main():
 	   # print(line)
 	    md5list.append(line)
 
-    #print("temp")
-    #print(temp)
-    #print("md5")
-    #print(md5list)
+    # Comparing both list
+    # temp contains md5 from the file(md5.txt)
+    # md5list contains md5 from the script(system)
     for ele in temp:
 	for md5 in md5list:
-	    #print("element:", ele[1])
-	    #print(md5[1])
 	    if ele[0] == md5[0]:
-		if ele[1] != md5[1]:
-		    print(str(ele[0]) + ": MD5 original = " + ele[1] + ", new MD5 = " + md5[1])
-		    break
+		#if ele[1] != md5[1]:
+		print(str(ele[0]) + ": MD5 original = " + md5[1] + ", new MD5 = " + ele[1])
 
 if __name__ == "__main__":
     main()
